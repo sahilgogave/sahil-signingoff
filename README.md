@@ -7,13 +7,7 @@ Images are from Unsplash.
 
 ### Demo
 
-https://tinder-cards.firebaseapp.com
-
-
-
-### Preview
-
-![](tinder.gif)
+https://sahil-loggingout.vercel.app/
 
 
 ### Installation

@@ -15,10 +15,10 @@ const objs = [
       "https://media.giphy.com/media/w89ak63KNl0nJl80ig/giphy.gif",
       
     ],
-    name: "Chloe",
+    name: "Signing Off",
     // age: 18,
     // distance: "1 mile away",
-    text: "The C and the L are silent."
+    text: "-Sahil Gogave"
   },
 
   {
@@ -27,10 +27,21 @@ const objs = [
       "https://media.giphy.com/media/yhEnePHuGY3eO0HaQL/giphy.gif",
       
     ],
-    name: "Chloe",
+    name: "Adios",
     // age: 18,
     // distance: "1 mile away",
-    text: "The C and the L are silent."
+    text: "Its time to say Goodbye."
+  },
+
+  {
+    pics: [
+      "https://media.giphy.com/media/26gBjoKLSCQKQ2qOc/giphy.gif",
+      "https://media.giphy.com/media/3o6nUQqlowTVIkz5XW/giphy.gif"
+    ],
+    name: "You were awesome",
+    // age: 18,
+    // distance: "1 mile away",
+    text: "Wishing each of you the best of health and some of the wonderful opportunities ahead"
   },
 
   {
@@ -39,22 +50,13 @@ const objs = [
       "https://media.giphy.com/media/kVaj8JXJcDsqs/giphy.gif",
       "https://media.giphy.com/media/asXCujsv7ddpm/giphy.gif"
     ],
-    name: "Chloe",
+    name: "Arigato",
     // age: 18,
     // distance: "1 mile away",
-    text: "The C and the L are silent."
+    text: "I want to thank my talented, bright, and committed colleagues and work friends."
   },
 
-  {
-    pics: [
-      "https://media.giphy.com/media/26gBjoKLSCQKQ2qOc/giphy.gif",
-      "https://media.giphy.com/media/3o6nUQqlowTVIkz5XW/giphy.gif"
-    ],
-    name: "Chloe",
-    // age: 18,
-    // distance: "1 mile away",
-    text: "The C and the L are silent."
-  },
+
  
   {
     pics: [
@@ -63,21 +65,21 @@ const objs = [
       "https://media.giphy.com/media/3oEjI8Kq5HhZLCrqBW/giphy.gif"
 
     ],
-    name: "Savannah",
+    name: "This is it",
     // age: 29,
     // distance: "3 miles away",
-    text: "A little known fact is that I cover about 40% of Africa."
+    text: "Today is my last working day in Capgemini"
   },
   {
     pics: [
       "https://media.giphy.com/media/l1IY282PDsSDtBjLa/giphy-downsized-large.gif",
       "https://media.giphy.com/media/13cptIwW9bgzk6UVyr/giphy-downsized-large.gif"
     ],
-    name: "21st November",
+    name: "Are you ready?",
     // age: 24,
     // distance: "5 miles away",
     text:
-      "I request everyone to take thier seats"
+      "I request everyone to take thier seats and take a deep breath."
   },
   {
     pics: [
@@ -90,7 +92,7 @@ const objs = [
     // age: 22,
     // distance: "2 miles away",
     text:
-      " I have an announcement to make."
+      "I have an announcement to make."
   }
 ];
 

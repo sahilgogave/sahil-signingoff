@@ -29,7 +29,7 @@ class Card extends React.Component {
                 <img src={pic} alt="profilePicture" />
               ))}
             </Carousel>
-            <h2>{name},</h2>
+            <h1>{name}</h1>
             {/* <h2>{age}</h2>
             <h5>{distance}</h5> */}
             <h4>{text}</h4>
