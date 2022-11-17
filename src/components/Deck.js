@@ -2,18 +2,35 @@ import React, { useState } from "react";
 import { useSprings } from "react-spring/hooks";
 import { useGesture } from "react-with-gesture";
 import Card from "./Card";
-
+import running from '../img/running.gif'
+import laptop from '../img/laptopshutdown.gif'
+import announcement from '../img/announcement.gif'
+import drumroll from '../img/drumroll.gif'
+import requestdrum from '../img/requestdrum.gif'
+import leaving from '../img/leaving.gif'
+import truedw from '../img/truedw.gif'
+import thankskid from '../img/thankskid.gif'
+import awesome from '../img/awesome.gif'
+import fistbump from '../img/fistbump.gif'
+import goodluck from '../img/goodluck.gif'
+import miclook from '../img/miclook.gif'
+import later from '../img/later.gif'
+import touch from '../img/touch.gif'
+import dwight from '../img/dwight.gif'
+import bye from '../img/bye.gif'
+import runningdoor from '../img/runningdoor.gif'
 import "../styles/Deck.css";
 
-const cards = [1, 2, 3, 4,5,6,7];
+const cards = [1, 2, 3, 4,5,6,7,8];
 
 const objs = [
 
   {
     pics: [
-      "https://media.giphy.com/media/qqQHsZ7WtSNjlmsUqO/giphy-downsized-large.gif",
-      "https://media.giphy.com/media/w89ak63KNl0nJl80ig/giphy.gif",
-      
+      laptop,
+      // bye,
+      runningdoor,
+      running,
     ],
     name: "Signing Off",
     // age: 18,
@@ -23,76 +40,86 @@ const objs = [
 
   {
     pics: [
-      "https://media.giphy.com/media/090VWZvZoOyn0xFtXo/giphy.gif",
-      "https://media.giphy.com/media/yhEnePHuGY3eO0HaQL/giphy.gif",
+      // miclook,
+      later,
+      bye
+    ],
+    name: "Later Guys",
+    // age: 18,
+    // distance: "1 mile away",
+    text: "Its not a goodbye, but a See you later."
+  },
+
+  {
+    pics: [
+      touch,
       
     ],
-    name: "Adios",
+    name: "Stay in Touch",
     // age: 18,
     // distance: "1 mile away",
-    text: "Its time to say Goodbye."
+    text: "email - sahilgogavelm@gmail.com   linkedin-sahilgogave"
   },
 
   {
     pics: [
-      "https://media.giphy.com/media/26gBjoKLSCQKQ2qOc/giphy.gif",
-      "https://media.giphy.com/media/3o6nUQqlowTVIkz5XW/giphy.gif"
+      goodluck,
+      fistbump
     ],
-    name: "You were awesome",
+    name: "Good Luck",
     // age: 18,
     // distance: "1 mile away",
-    text: "Wishing each of you the best of health and some of the wonderful opportunities ahead"
+    text: "Wishing each of you the best of health and lots of wonderful opportunities in life."
   },
 
   {
     pics: [
-      "https://media.giphy.com/media/l3q2wJsC23ikJg9xe/giphy.gif",
-      "https://media.giphy.com/media/kVaj8JXJcDsqs/giphy.gif",
-      "https://media.giphy.com/media/asXCujsv7ddpm/giphy.gif"
+      thankskid,
+      awesome,
     ],
-    name: "Arigato",
+    name: "Gracias",
     // age: 18,
     // distance: "1 mile away",
-    text: "I want to thank my talented, bright, and committed colleagues and work friends."
+    text: "thank you to my talented, bright, and committed colleagues and work friends."
   },
 
 
  
   {
     pics: [
-      "https://media.giphy.com/media/YoTgLLUTSQiRnvrRth/giphy.gif",
-      "https://media.giphy.com/media/4KCLTHGZJDvyJmgHwA/giphy.gif",
-      "https://media.giphy.com/media/3oEjI8Kq5HhZLCrqBW/giphy.gif"
+      leaving,
+      truedw
 
     ],
     name: "This is it",
     // age: 29,
     // distance: "3 miles away",
-    text: "Today is my last working day in Capgemini"
+    text: "21st Nov will be my last working day in Capgemini."
   },
   {
     pics: [
-      "https://media.giphy.com/media/l1IY282PDsSDtBjLa/giphy-downsized-large.gif",
-      "https://media.giphy.com/media/13cptIwW9bgzk6UVyr/giphy-downsized-large.gif"
+      requestdrum,
+      drumroll
     ],
-    name: "Are you ready?",
+    name: "Can I get a Drumroll, Please?",
     // age: 24,
     // distance: "5 miles away",
     text:
-      "I request everyone to take thier seats and take a deep breath."
+      "*da-dum-da-dum*"
   },
   {
     pics: [
       // "https://media.giphy.com/media/3o84Ubkv5Lta7SnMek/giphy-downsized-large.gif",
       // "https://media.giphy.com/media/1luXLMeNxsaNFMUuOe/giphy.gif",
-      "https://media.giphy.com/media/BXOEmFSzNkOObZhIA3/giphy.gif",
-      "https://media.giphy.com/media/VQdtxkDIioW4udmvyZ/giphy.gif"
+      announcement,
+      dwight
+      // "https://media.giphy.com/media/VQdtxkDIioW4udmvyZ/giphy.gif"
     ],
     name: "Hello Everyone",
     // age: 22,
     // distance: "2 miles away",
     text:
-      "I have an announcement to make."
+      "Hope you are doing fine."
   }
 ];
 
