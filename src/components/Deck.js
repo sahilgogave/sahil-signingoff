@@ -21,6 +21,7 @@ import dwight from '../img/dwight.gif'
 import bye from '../img/bye.gif'
 import runningdoor from '../img/runningdoor.gif'
 import "../styles/Deck.css";
+import thisisit from '../img/thisisit.gif'
 
 const cards = [1, 2, 3, 4,5,6,7,8];
 
@@ -44,7 +45,7 @@ const objs = [
       bye
     ],
     name: "Later Guys",
-    text: "Its not a goodbye, but a See you later."
+    text: "Its not a goodbye, its a See you later."
   },
 
   {
@@ -53,7 +54,7 @@ const objs = [
       
     ],
     name: "Stay in Touch",
-    text: "email - sahilgogavelm@gmail.com   linkedin-sahilgogave"
+    text: "email - sahilgogavelm@gmail.com,   linkedin-sahilgogave"
   },
 
   {
@@ -79,6 +80,7 @@ const objs = [
   {
     pics: [
       leaving,
+      thisisit,
       truedw
 
     ],
@@ -90,7 +92,7 @@ const objs = [
       requestdrum,
       drumroll
     ],
-    name: "Can I get a Drumroll, Please?",
+    name: "Can I get a Drumroll,Please?",
     text:
       "*da-dum-da-dum*"
   },
@@ -106,7 +108,7 @@ const objs = [
     ],
     name: "Hello Everyone",
     text:
-      "Hope you are doing well."
+      "Hope you are doing well"
   }
 ];
 
