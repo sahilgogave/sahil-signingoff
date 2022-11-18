@@ -16,6 +16,7 @@ import goodluck from '../img/goodluck.gif'
 import miclook from '../img/miclook.gif'
 import later from '../img/later.gif'
 import touch from '../img/touch.gif'
+import thankyou from '../img/thankyou.gif'
 import dwight from '../img/dwight.gif'
 import bye from '../img/bye.gif'
 import runningdoor from '../img/runningdoor.gif'
@@ -33,8 +34,6 @@ const objs = [
       running,
     ],
     name: "Signing Off",
-    // age: 18,
-    // distance: "1 mile away",
     text: "-Sahil Gogave"
   },
 
@@ -45,8 +44,6 @@ const objs = [
       bye
     ],
     name: "Later Guys",
-    // age: 18,
-    // distance: "1 mile away",
     text: "Its not a goodbye, but a See you later."
   },
 
@@ -56,8 +53,6 @@ const objs = [
       
     ],
     name: "Stay in Touch",
-    // age: 18,
-    // distance: "1 mile away",
     text: "email - sahilgogavelm@gmail.com   linkedin-sahilgogave"
   },
 
@@ -67,20 +62,16 @@ const objs = [
       fistbump
     ],
     name: "Good Luck",
-    // age: 18,
-    // distance: "1 mile away",
     text: "Wishing each of you the best of health and lots of wonderful opportunities in life."
   },
 
   {
     pics: [
       thankskid,
-      awesome,
+      thankyou,
     ],
-    name: "Gracias",
-    // age: 18,
-    // distance: "1 mile away",
-    text: "thank you to my talented, bright, and committed colleagues and work friends."
+    name: "Thanks Partner",
+    text: "Many thanks to my talented, bright, and committed colleagues and work friends."
   },
 
 
@@ -92,9 +83,7 @@ const objs = [
 
     ],
     name: "This is it",
-    // age: 29,
-    // distance: "3 miles away",
-    text: "21st Nov will be my last working day in Capgemini."
+    text: "Today is my last working day in Capgemini."
   },
   {
     pics: [
@@ -102,8 +91,6 @@ const objs = [
       drumroll
     ],
     name: "Can I get a Drumroll, Please?",
-    // age: 24,
-    // distance: "5 miles away",
     text:
       "*da-dum-da-dum*"
   },
@@ -111,15 +98,15 @@ const objs = [
     pics: [
       // "https://media.giphy.com/media/3o84Ubkv5Lta7SnMek/giphy-downsized-large.gif",
       // "https://media.giphy.com/media/1luXLMeNxsaNFMUuOe/giphy.gif",
-      announcement,
-      dwight
+      
+      dwight,
+      announcement
+      
       // "https://media.giphy.com/media/VQdtxkDIioW4udmvyZ/giphy.gif"
     ],
     name: "Hello Everyone",
-    // age: 22,
-    // distance: "2 miles away",
     text:
-      "Hope you are doing fine."
+      "Hope you are doing well."
   }
 ];
 
