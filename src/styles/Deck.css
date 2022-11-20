@@ -18,7 +18,7 @@ body {
 
 #root {
   /* background: rgb(29, 173, 220); */
-  background-image: url('../img/capg.jpg');
+  background-image: url('../img/background.png');
   background-size: cover;
   background-position: center;
   position: relative;

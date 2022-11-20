@@ -197,6 +197,7 @@ function Deck() {
       bind={bind}
     />
   ));
+  
 }
 
 export default Deck;
