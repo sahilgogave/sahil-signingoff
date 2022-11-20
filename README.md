@@ -1,5 +1,5 @@
 
-## React Tinder Cards
+## Farewell Cards
 
 This project uses 'react-spring' and 'react-gesture libraries and is an extension of an example from the 'react-gesture' page. It was made as farewell website.
 
