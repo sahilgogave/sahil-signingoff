@@ -4,26 +4,27 @@ import { useGesture } from "react-with-gesture";
 import Card from "./Card";
 import running from '../img/running.gif'
 import laptop from '../img/laptopshutdown.gif'
-import announcement from '../img/announcement.gif'
+import seat from '../img/seat.gif'
 import drumroll from '../img/drumroll.gif'
 import requestdrum from '../img/requestdrum.gif'
 import leaving from '../img/leaving.gif'
-import truedw from '../img/truedw.gif'
+import salute from '../img/salute.gif'
 import thankskid from '../img/thankskid.gif'
-import awesome from '../img/awesome.gif'
+import roll from '../img/roll.gif'
 import fistbump from '../img/fistbump.gif'
 import goodluck from '../img/goodluck.gif'
-import miclook from '../img/miclook.gif'
+import smile from '../img/smile.gif'
 import later from '../img/later.gif'
 import touch from '../img/touch.gif'
 import thankyou from '../img/thankyou.gif'
 import dwight from '../img/dwight.gif'
 import bye from '../img/bye.gif'
 import runningdoor from '../img/runningdoor.gif'
+import hug from '../img/hug.gif'
 import "../styles/Deck.css";
-import thisisit from '../img/thisisit.gif'
 
-const cards = [1, 2, 3, 4,5,6,7,8];
+
+const cards = [1, 2, 3, 4,5,6,7,8,9];
 
 const objs = [
 
@@ -41,11 +42,12 @@ const objs = [
   {
     pics: [
       // miclook,
-      later,
-      bye
+      hug,
+      later
+      
     ],
     name: "Later Guys",
-    text: "Its not a goodbye, its a See you later."
+    text: "It's not a goodbye; it's a see you later. I hope our paths cross again. "
   },
 
   {
@@ -54,7 +56,7 @@ const objs = [
       
     ],
     name: "Stay in Touch",
-    text: "email - sahilgogavelm@gmail.com,   linkedin-sahilgogave"
+    text: "email - sahilgogavelm@gmail.com,   Phone-9763410719"
   },
 
   {
@@ -66,33 +68,44 @@ const objs = [
     text: "Wishing each of you the best of health and lots of wonderful opportunities in life."
   },
 
+
+
+  {
+    pics: [
+      roll,
+      salute,
+    ],
+    name: "You",
+    // text: "Many thanks to my talented, bright, and committed colleagues and work friends."
+    text:"Without your friendship, support and collaboration, my time here would not have been the same."
+  },
+
   {
     pics: [
       thankskid,
       thankyou,
     ],
     name: "Thanks Partner",
-    text: "Many thanks to my talented, bright, and committed colleagues and work friends."
+    // text: "Many thanks to my talented, bright, and committed colleagues and work friends."
+    text:"It was pleasure for being able to get to know you both professionally and personally."
   },
-
 
  
   {
     pics: [
       leaving,
-      thisisit,
-      truedw
+      smile
 
     ],
     name: "This is it",
-    text: "Today is my last working day in Capgemini."
+    text: "Today I bid my farewell to you and Capgemini."
   },
   {
     pics: [
       requestdrum,
       drumroll
     ],
-    name: "Can I get a Drumroll,Please?",
+    name: "Before We Start",
     text:
       "*da-dum-da-dum*"
   },
@@ -102,13 +115,13 @@ const objs = [
       // "https://media.giphy.com/media/1luXLMeNxsaNFMUuOe/giphy.gif",
       
       dwight,
-      announcement
+      seat
       
       // "https://media.giphy.com/media/VQdtxkDIioW4udmvyZ/giphy.gif"
     ],
-    name: "Hello Everyone",
+    name: "Greetings All!",
     text:
-      "Hope you are doing well"
+      "This is my farewell message."
   }
 ];
 
