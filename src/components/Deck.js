@@ -56,7 +56,7 @@ const objs = [
       
     ],
     name: "Stay in Touch",
-    text: "email - sahilgogavelm@gmail.com,   Phone-9763410719"
+    text: "You are legally obliged to stay in touch"
   },
 
   {
